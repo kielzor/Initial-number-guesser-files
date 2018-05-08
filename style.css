@@ -1,0 +1,92 @@
+    body {
+        border: 10px solid grey;
+        font-family: sans-serif;
+    }
+    
+    .head {
+        background-color: #404041;
+        text-align: center;        
+        font-size: 60px;
+        height: 80px;
+        margin-bottom: 50;
+    }
+
+    .parameters {
+        text-align: center;
+    }
+
+    .number {
+        color: #ed458b;
+    }
+
+    .guesser {
+        color: #e6e7e8;
+        font-weight: 100;
+    }
+    
+    .guess {
+        color: rgb(85, 31, 31);        
+        text-align: center;
+        min-height: 100px;
+    }
+
+    #input {
+        font-size: large;
+        min-height: 50px;
+        min-width: 450px;
+    }
+
+    .input-select {
+        text-align: center;
+        margin: 30 auto;
+    }
+
+    .button {
+        margin: 0 15px;
+        color: #ffffff;
+        width: 215px;
+        height: 50px;
+        background-color: #d0d2d3;
+        font-size: 25px;
+        font-family: sans-serif;
+        border-radius: 100px;
+        outline: none;
+    }
+
+    .button:hover {
+        background-color: #ed458b;
+    }
+
+    .center-text {
+        font-size: xx-large;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #last-guess {
+        text-align: center;
+        font-size: 75px;
+        color: #ed458b;
+    }
+
+    .reset-button {
+        text-align: center;
+    }
+
+    .bottom-button { 
+        width: 500px;
+        height: 50px;
+        font-size: large;
+        color: #ffffff;
+        background-color: #d0d2d3;
+        border-radius: 100px; 
+        outline: none;
+     }
+
+     .bottom-button:hover {
+        background-color: #ed458b;
+    }
+
+    .compare {
+        text-align: center
+    }

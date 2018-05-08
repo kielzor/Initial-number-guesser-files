@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Number Guesser</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+        <body class="winner">
+            <h1 class="head"><span class="number">Number </span><span class="guesser">Guesser</span></h1>
+           <section class="parameters">
+               <p class="new-game"></p>
+           </section>
+           <!-- <form class="input-form"> -->
+                <section class="guess">
+                   <input id="input" type="text" placeholder="Pick a Number 1-100">
+                </section>
+                <section class="input-select">
+                    <button id="guess" class="button">Guess</button>
+                    <button class="button clear-button">Clear</button>
+                </section>
+                <!-- </form> -->
+            <section class="main">
+                <p class="center-text">Your last guess was</p>
+                <p id="last-guess">#</p>
+            </section>
+            <p class="compare"></p>
+            <section class="reset-button">
+                <button class="bottom-button">Reset</button>
+            </section>
+        <script src="myscripts.js"></script>
+    </body>
+</html>
