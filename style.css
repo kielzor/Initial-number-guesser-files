@@ -11,6 +11,10 @@
         margin-bottom: 50;
     }
 
+    button:enabled {
+        background-color: #929497;
+    }
+
     .parameters {
         text-align: center;
     }
@@ -53,7 +57,7 @@
         outline: none;
     }
 
-    .button:hover {
+    button:enabled:hover {
         background-color: #ed458b;
     }
 
@@ -82,10 +86,6 @@
         border-radius: 100px; 
         outline: none;
      }
-
-     .bottom-button:hover {
-        background-color: #ed458b;
-    }
 
     .compare {
         text-align: center

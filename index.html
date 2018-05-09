@@ -8,22 +8,20 @@
            <section class="parameters">
                <p class="new-game"></p>
            </section>
-           <!-- <form class="input-form"> -->
                 <section class="guess">
-                   <input id="input" type="text" placeholder="Pick a Number 1-100">
+                   <input id="input" type="text" placeholder="Pick a Number between 1 and 100">
                 </section>
                 <section class="input-select">
-                    <button id="guess" class="button">Guess</button>
-                    <button class="button clear-button">Clear</button>
+                    <button id="guess" class="button guess-button" disabled>Guess</button>
+                    <button class="button clear-button" disabled>Clear</button>
                 </section>
-                <!-- </form> -->
             <section class="main">
                 <p class="center-text">Your last guess was</p>
                 <p id="last-guess">#</p>
             </section>
             <p class="compare"></p>
             <section class="reset-button">
-                <button class="bottom-button">Reset</button>
+                <button class="bottom-button" disabled>Reset</button>
             </section>
         <script src="myscripts.js"></script>
     </body>
